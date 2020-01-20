@@ -57,6 +57,26 @@ the training process could run automatically.
 
 ## Test the trained network
 "bash test.sh". We gave some example images in folder "testimages", and save example "epoch 220" for users to test.
+Test examples captured from real word can be [downloaded](https://drive.google.com/file/d/1GeyKqQOfSpCGN18EMEm3pPbG4RKrWExS/view?usp=sharing).
+Unzip the "test" folder into path "Train/datasets/" and run thet.sh
 
 ### Acknowledgement 
 We refer the code from [DeblurGAN](https://github.com/KupynOrest/DeblurGAN), using the lib for raw processing [raw_private](https://au.mathworks.com/matlabcentral/fileexchange/66927-read-raw-camera-images) by E. Farhi and RandsacHomography by Edward Wiggin.
+
+The training and experiments are supported by KAUST baseline funding.
+
+## Citation
+
+If you find our code helpful in your research or work please cite our paper.
+
+```
+@inproceedings{Peng_Sun2019LearnLargeFOV,
+  title={Learned Large Field-of-View Imaging With Thin-Plate Optics},
+  author={Peng, Yifan and Sun, Qilin and Dun, Xiong and Wetzstein, Gordon and Heidrich, Wolfgang},
+  booktitle={ACM Transactions on Graphics (Proc. SIGGRAPH Asia)},
+  volume = {38},
+  number = {6},
+  year = {2019},
+  publisher={ACM} 
+  }
+```
